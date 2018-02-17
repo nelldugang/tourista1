@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Gallery1</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="capstone1.css">
+  <meta name="viewport" content="width=device-width, initial-scale-1.0">
+	<style>
+	 body {
+	 	background-image: url(background2.png);
+	 	background-size: 100%;
+	 		}
+
+	 .container {
+  		position: relative;
+  		width: 55%;
+
+			}
+
+	.image {
+		display: block;
+  		width: 100%;
+  		height: auto;
+  		border: 2px solid orange;
+			}
+
+	.overlay {
+  		position: absolute;
+  		top: 0;
+  		bottom: 0;
+  		left: 0;
+  		right: 0;
+  		height: 100%;
+  		width: 100%;
+  		opacity: 0;
+  		transition: .5s ease;
+  		background-color: white;
+  		overflow: auto;
+  		
+			}
+
+	.container:hover .overlay {
+  		opacity: .7;
+		}
+
+	.text {
+  		font-family: 'Amatic SC', cursive;
+  		font-size: 27px;
+  		font-weight: bold;
+  		/*position: absolute;*/
+      top:50%;
+      left: 50%;
+  		/*vertical-align: center;*/
+  		margin: 20px 50px;
+  		
+  		/*top: 50%;
+  		left: 50%;
+  		right: 25%;
+  		bottom: 25%;
+  		transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);*/
+  		/*text-align: center;*/
+  		}
+
+	 
+
+	</style>
+
+</head>
+<body>
+	<a name="top"></a>
+	<nav class="navbar navbar-default" style="background-color: transparent; font-family: 'Amatic SC', cursive; font-weight: bold;">
+  		<div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="capstone1.html">Brand</a>
+    		</div>
+    		 
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="float: right">
+      			<ul class="nav navbar-nav">
+        			<li><a href="capstone1.html">Home<span class="sr-only">(current)</span></a></li>
+        			<li><a href="capstoneabout.html">About Me</a></li>
+        			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="background-color: transparent;">Gallery <span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+                    <li><a href="capstonegallery1.html">Main Gallery</a></li>
+            				<li><a href="capstonegallery2.html">More Gallery</a></li>
+            
+         				</ul>
+         			</li>
+         			<li><a href="capstoneplaces.html">Contact</a></li>
+      			</ul>
+      		</div>
+  		</div>
+  	</nav>	
+
+  	<div class="container">
+  		<div class="row">
+  		<img src="places/pyramid.jpg" alt="" class="image">
+  			<div class="overlay">
+    		<div class="text">They're over 3,000 years old, and we still don't have a good idea as to how they were built or how the Egyptians made them so precise (were aliens involved?). The three pyramids align to the stars and the solstices and contain tons of chambers that still haven't been (and cannot be) opened. I mean, how did they create those little chambers where people can't even crawl through? The largest one, called the Great Pyramid, was built by the Pharaoh Khufu and has limited access to it. The Pyramids are truly a marvel of human engineering that was fit for kings. (You will also find the Sphinx nearby, another historical site whose mysteries baffle researchers and are the subject of many conspiracy theories.)
+			</div>
+  			</div>
+  		</div>	
+	</div>
+	<br>
+
+	<div class="container">
+  		<div class="row">
+  		<img src="places/petra.jpg" alt="" class="image">
+  			<div class="overlay">
+    		<div class="text">Carved into a canyon in Arabah, Jordan, Petra was made famous by the third Indiana Jones film when he went to find the Holy Grail. The site was “discovered” in 1812 by a Swiss explorer who followed some local tribesmen there; prior to that, it had been forgotten to the Western world. Though its founding is unknown, it appears this place had settlers as early as the 6th century BC. Under Roman rule, the site declined rapidly and was abandoned by the late 4th century. In 1985, Petra became a UNESCO World Heritage Site and was recently named one of the New Seven Wonders of the World.
+			</div>
+  			</div>
+  		</div>	
+	</div>
+	<br>
+
+	<div class="container">
+  		<div class="row">
+  		<img src="places/machu.jpg" alt="" class="image">
+  			<div class="overlay">
+    		<div class="text">Located in southern Peru, this ruined city lies on top of a mountain that’s only accessible by train or a four-day trek. Rediscovered by Hiram Bingham in 1911, it was an important cultural center for the Inca civilization but was abandoned when the Spanish invaded the region. (It is famously referred to as the “Lost City of the Incas,” though that is actually Vilcabamba). The location was made a UNESCO World Heritage site in 1983, and it was named one of the New Seven Wonders of the World in 2007. Concerns over growing numbers of tourists have led to limitations on how many people can enter the site, though only by a fraction of what is necessary. Hopefully they will limit it even more so this site can last for hundreds of years more.
+			</div>
+  			</div>
+  		</div>	
+	</div>
+	<br>
+	<div class="container">
+  		<div class="row">
+  		<img src="places/rome.jpg" alt="" class="image">
+  			<div class="overlay">
+    		<div class="text">The Colosseum and the Forum are right next to each other in Rome, so I included them together. Remnants of a civilization that once controlled the known world, these sites are breathtaking not only for their beauty but also for their history and age. You’re standing in the spot Caesar walked and gazing into the arena where gladiators battled to the death. The Colosseum has slowly crumbled throughout the ages, and much of it is restricted now, especially the floor and basement where everything was organized. The Forum is great to walk around (and it’s free), though a ticket is required for Palatine Hill. I would definitely get a guided tour, because the information presented by the authorities doesn’t go into much depth.
+			</div>
+  			</div>
+  		</div>	
+	</div>
+	<br>
+	<div class="container">
+  		<div class="row">
+  		<img src="places/wall.jpg" alt="" class="image">
+  			<div class="overlay">
+    		<div class="text">The Colosseum and the Forum are right next to each other in Rome, so I included them together. Remnants of a civilization that once controlled the known world, these sites are breathtaking not only for their beauty but also for their history and age. You’re standing in the spot Caesar walked and gazing into the arena where gladiators battled to the death. The Colosseum has slowly crumbled throughout the ages, and much of it is restricted now, especially the floor and basement where everything was organized. The Forum is great to walk around (and it’s free), though a ticket is required for Palatine Hill. I would definitely get a guided tour, because the information presented by the authorities doesn’t go into much depth.
+			</div>
+  			</div>
+  		</div>	
+	</div>
+
+	<br>
+	
+
+
+	<div><p style="text-align: center"><a href="#top" class="btn btn-warning" role="button">Back to top</a></p></div>
+
+
+
+
+
+
+
+
+
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>

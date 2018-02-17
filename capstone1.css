@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Anton|Montserrat|Amatic+SC|Gloria+Hallelujah|Slabo+27px');
+
+* {
+	/*border: 1px solid orange;*/
+}
+
+
+#element { 
+  margin:0; padding:0;
+  font-size:100%;
+  line-height:1; 
+}
+
+.jumbo {
+	margin: 50px 100px;
+	font-family: 'Amatic SC', cursive;
+	background-color: transparent !important;
+	margin: 0;
+  	text-shadow: -1px 0 orange, 0 1px orange, 1px 0 orange, 0 -1px orange;
+	}
+
+  .click {
+    text-align: left;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    font-weight: bold;
+    font-size: 2.8vw;
+    border-radius: 50%;
+    transform: rotate(50deg);
+    -webkit-border-radius: 30px;
+    -webkit-animation: pulsate 1s ease-out;
+    -webkit-animation-iteration-count: infinite; 
+    opacity: .9px;
+}
+
+   
+}
+@-webkit-keyframes pulsate {
+    0% {-webkit-transform: scale(0.1, 0.1); opacity: 0.0;}
+    50% {opacity: 1.0;}
+    100% {-webkit-transform: scale(1.2, 1.2); opacity: 0.0;}
+}
+
+
+.shake:hover {
+    /* Start the shake animation and make the animation last for 0.5 seconds */
+    animation: shake 0.005s; 
+    /* When the animation is finished, start again */
+    animation-iteration-count: infinite; 
+    -webkit-animation-name: shake;
+    animation-name: shake;
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+}
+
+@keyframes shake {
+    0% { transform: translate(3px, 3px) rotate(0deg); }
+    10% { transform: translate(-3px, -4px) rotate(-1deg); }
+    20% { transform: translate(-5px, -2px) rotate(1deg); }
+    30% { transform: translate(5px, 4px) rotate(0deg); }
+    40% { transform: translate(3px, -3px) rotate(1deg); }
+    50% { transform: translate(-3px, 4px) rotate(-1deg); }
+    60% { transform: translate(-5px, 3px) rotate(0deg); }
+    70% { transform: translate(5px, 3px) rotate(-1deg); }
+    80% { transform: translate(-3px, -3px) rotate(1deg); }
+    90% { transform: translate(3px, 4px) rotate(0deg); }
+    100% { transform: translate(3px, -4px) rotate(-1deg); }
+}
+
+
+.fly {
+    position: relative;
+    -webkit-animation: myfirst 5s infinite; /* Chrome, Safari, Opera */
+    -webkit-animation-direction: alternate; /* Chrome, Safari, Opera */
+    animation: myfirst 5s infinite;
+}
+
+@keyframes myfirst {
+
+    0%   {left: 0px;}
+    25%  {left: 1000px; }
+    50%  {left: 1000px;}
+    75%  {left: 0px;}
+    100% {left: 0px;}
+}
+
+.inline {
+  float: left;
+
+}
+
+.progress-bar {
+  display: inline-block;
+}
+
