@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>	</title>
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="../bootstrap/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="capstone1.css">
+	<meta name="viewport" content="width=device-width, initial-scale-1.0">
+	
+	<style>
+	 body {
+	 	background-image: url(background3.png);
+	 	background-size: 100%;
+	 	/*background-repeat: no-repeat;*/
+	 }
+
+
+
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-default" style="background-color: transparent; font-family: 'Amatic SC', cursive; font-weight: bold;">
+  		<div class="container-fluid" style="width:100%">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    		<div class="navbar-header">
+      			<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        			<span class="sr-only">Toggle navigation</span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+        			<span class="icon-bar"></span>
+      			</button>
+      			<a class="navbar-brand" href="capstone1.html">Brand</a>
+    		</div>
+    		 
+    		<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1" style="float: right">
+      			<ul class="nav navbar-nav">
+        			<li><a href="capstone1.html">Home<span class="sr-only">(current)</span></a></li>
+        			<li><a href="capstoneabout.html">About Me</a></li>
+        			<li class="dropdown"><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false" style="background-color: transparent;">Gallery<span class="caret"></span></a>
+          				<ul class="dropdown-menu">
+          					<li><a href="capstonegallery1.html">Main Gallery</a></li>
+            				<li><a href="capstonegallery2.html">More Gallery</a></li>
+            
+         				</ul>
+         			</li>
+         			<li><a href="booking.html">Book a flight</a></li>
+         			<li><a href="capstoneplaces.html">Contact</a></li>
+      			</ul>
+      		</div>
+  		</div>
+  	</nav>	
+  	<br>
+  	<br>
+
+  	<div class="container" style="font-family: 'Oswald', cursive;">
+  		<div class="row">
+  			<div class="col-sm-6">
+  				<h1 style="margin-top: 80px; font-size:50px">BOOKING FLIGHTS: EVERYTHING YOU NEED TO KNOW</h1>
+
+  			</div>
+  			<div class="col-sm-6" style="width:550px; height:auto">
+  				<div class="panel-body" style="background-color: #F5DEB3; border-radius: 5px">
+  					<h3><i class="fas fa-plane" style="color: #00BFFF"></i> Flights</h3>
+  					<!-- origin / destination -->
+  					<input type="text" class="form-control" placeholder="Origin city or Airport" style="font-weight: bold"><br>
+  					<input type="text" class="form-control" placeholder="Destination city or Airport" style="font-weight: bold"><br>
+  					<!-- origin / destination -->
+  					<!-- date of depart and return -->
+  					<div class="row">
+  						<div class="col-sm-6" >Depart
+		  						<form style="width: 100%">
+								<input type="date" style="color: #999;
+  border: 1px solid #ccc; border-radius: 5px; padding:6px; font-weight: bold">
+								<input type="submit" style="padding: 6px; border-radius: 3px">
+								</form>	
+			  			</div>
+			  			<div class="col-sm-6" >Return
+								<form style="width: 100%">
+								<input type="date" style="color: #999;
+  border: 1px solid #ccc; border-radius: 5px; padding:6px; font-weight: bold">
+								<input type="submit" style="padding: 6px; border-radius: 3px">
+								</form>	
+			  			</div>
+					</div>
+					<!-- date of depart and return -->
+			  		<br>
+			  		<!-- male female child dropdown -->
+			  		<div class="row">
+			  			<div class="col-sm-4">
+			  				<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width: 100%">
+								    <i class="fas fa-male" style="width:100px;text-align: left;font-size: 20px; color:#00BFFF"></i> 1
+								    <span class="caret"></span>
+								  </button> 
+								  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="text-align: center">
+								    <li><a href="#">1</a></li>
+								    <li><a href="#">2</a></li>
+								    <li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+								  </ul>
+								</div>
+			  			</div>
+			  			<div class="col-sm-4">
+			  				<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width: 100%">
+								    <i class="fas fa-female" style="width:100px; text-align: right; font-size: 20px; color:#00BFFF"></i> 1
+								    <span class="caret"></span>
+								  </button> 
+								  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="text-align: center">
+								    <li><a href="#">1</a></li>
+								    <li><a href="#">2</a></li>
+								    <li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+								  </ul>
+								</div>
+			  			</div>
+			  			<div class="col-sm-4">
+			  				<div class="dropdown">
+								  <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true" style="width: 100%">
+								    <i class="fas fa-child" style="width:100px; text-align: left; font-size: 20px; color:#00BFFF; display: inline-block;"></i> 1
+								    <span class="caret"></span>
+								  </button> 
+								  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="text-align: center">
+								    <li><a href="#">1</a></li>
+								    <li><a href="#">2</a></li>
+								    <li><a href="#">3</a></li>
+									<li><a href="#">4</a></li>
+								  </ul>
+								</div>
+			  			</div>
+			  		</div>	
+			  		<!-- male female child dropdown -->	
+			  		<br>
+			  		<!-- economy dropdown -->
+			  		<div class="row">
+			  			<div class="col-sm-12">
+			  			<div class="dropdown">
+							 <button class="btn btn-default dropdown-toggle"  id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"><div style="width:460px; text-align: left; display: inline-block;">
+							    Economy</div><span class="caret"></span>
+							    
+							  </button>
+							  <ul class="dropdown-menu" aria-labelledby="dropdownMenu1" style="width: 495px">
+							    <li><a href="#">Premium Economy</a></li>
+							    <li><a href="#">Business</a></li>
+							    <li><a href="#">First</a></li>
+							    
+							  </ul>
+							</div> 
+						</div>
+			  		</div>
+			  		<!-- economy dropdown -->
+			  		<br>
+			  		<!-- Search button -->
+			  		<div class="row" >
+			  			<div class="col-sm-12" style="text-align: center;">
+			  				<button type="button" class="btn btn-default" style="width: 100%; background-color: #00BFFF"><i class="fas fa-search" style="font-size: 30px;"></i></button>
+			  			</div>	
+			  		</div>		
+			  		<!-- Search button -->
+			  		</div>	
+			  	</div>
+			</div>
+			<br><br><br><br><br><br><br>	
+				
+			<div class="row" style="">
+				<div class="col-sm-3">
+					<div style="background-color: teal; padding:20px">
+						<h3>1. Ignore the myths</h3>
+						<p>There are many myths online about finding cheap flights. There is no magic bullet or one secret ninja trick. So let me first say: it is NOT cheaper to buy airfare on a Tuesday, there is NO evidence that searching incognito leads to cheaper deals, and there is NO exact date or specific time period in which to book your airfare.</p>
+					</div>
+					<br>
+					<div style="background-color: orange; padding:20px">	
+						<h3>5. Don’t always fly direct</h3>
+						<p>Sometimes it’s cheaper to fly to London and take a budget airline to Amsterdam than to fly direct to Amsterdam. There are so many budget carriers around the world that taking advantage of a good deal to another city and then hopping on a budget flight to your destination is sometimes the best way to go. I had to go to Paris once; the flight was $900 USD, but I could fly to Dublin for $600 and get a $60 flight to Paris. It meant more flying time, but the $240 I saved was worth it.</p>
+					</div>		
+
+				</div>
+				<div class="col-sm-3">
+					<div style="background-color: #9ACD32; padding:20px">	
+						<h3>2. Be flexible with your travel dates and times</h3>
+						<p>Airline ticket prices vary depending on the day of the week, time of year, and upcoming holidays. If you are going to fly when everyone is flying, then you’re going to pay higher fares. If you are dead-set on visiting Paris, go to Paris in the spring or fall when fewer people visit and airfares are cheaper.
+
+						It’s always cheaper to fly during the middle of the week than on a weekend because most people travel on the weekends and airlines hike their prices then. Prices are also cheaper if you fly after a major holiday. Early-morning or late-night flights are cheaper because fewer people want to travel then. The difference of one day can mean hundreds of dollars in savings.</p>
+					</div>
+					<br>	
+					<div style="background-color: #FF6347; padding:20px">	
+						<h3>6. Take advantage of student discounts</h3>
+						<p>If you are a student (or under 26), there are many, many discounts available to you. There are a lot of student discount codes out there, and travel agencies like STA Travel or Flight Centre can help find you a cheap ticket.</p>
+					</div>	
+				</div>
+				
+
+				<div class="col-sm-3">
+					<div style="background-color: #FAFAD2; padding:20px">	
+						<h3>3. Be flexible with your destinations</h3>
+						<p>If you can’t be flexible when you fly, at least be flexible with where you fly. It’s best to be both, but if you really want to save the most money on a flight, you should at least do one! Airline search engines have made it really easy to search the entire world to find the cheapest ticket — you no longer have to search manually. When you are locked into one place at one time, you are stuck with whatever price shows up. No voodoo can change that. When you become flexible, suddenly the entire world opens up to you and you’ll find amazing cheap airfare!</p>
+						
+					</div>
+					<br>	
+					<div style="background-color: #7FFFD4; padding:20px">
+						<h3>7. Search ticket prices as one person</h3>		
+						<p>Don’t search for or buy multiple tickets in a single purchase. Airlines always show the highest ticket price in a group of tickets. For example, if you are a family of four and searching for four seats, the airline will find four seats together and show your fare based on the highest ticket price. So if seat A is $200, seats B and C are $300, and seat D is $400, it will price those tickets as $400 each instead of adding up the individual ticket prices. Therefore, always search for tickets as a single person. Afterwards, in the checkout process, you can pick your seats so you and your family are sitting together.</p>
+					</div>	
+				</div>
+
+
+				<div class="col-sm-3">
+					<div style="background-color: #DC143C; padding:20px">	
+						<h3>4. Fly budget carriers</h3>
+						<p>Budget airlines now service many long-haul routes, making it possible to bounce around the world for little money. Norwegian Airlines allows you to fly between Europe and Bangkok for about $250 each way. WOW air is introducing cheap flights to Iceland and Europe from the United States for as little as $99. AirAsia offers crazy-cheap deals around Asia and Australia for as little as $100 each way. You can find even tickets from Bangkok to Kuala Lumpur for $30 USD. You can fly most of the way around the world on a budget airline! Whenever I am not flying a long, overnight flight, I fly these airlines as much as possible.</p>	
+					</div>
+					<br>
+					<div style="background-color: #FA8072; padding:20px">	
+						<h3>8. Book early, but not too early</h3>
+						<p>Airline fares will keep rising, but there is a sweet spot when the airlines begin to either lower or increase fares based on demand. Don’t wait until the last second but don’t book far, far in advance either. The best booking window is 6–8 weeks before your flight, or around three months before if you are going to your destination during peak season.</p>
+
+					</div>	
+			</div>	
+  	</div>
+  	<br><br><br><br>
+
+
+  	 <div class="container" style="font-family: 'Amatic SC' ,cursive;">
+    <div class="row">
+      <div class="col-sm-4" style="font-size: 18px">
+      <p><strong>Most of the images in this blog are not mine. The images used are for educational purposes only. Credit goes to the owner of the images.</strong></p> 
+      </div>
+      <div class="col-sm-4" style="font-size: 30px">
+      <div><strong>Follow us</strong></div>
+      <div> 
+        <a href="https://www.facebook.com/r.php" target="_blank"><img src="icons/fb.jpg" style="border-radius: 100%; height: 40px; width: 40px"></a>
+        <a href="https://www.instagram.com/?hl=en" target="_blank"><img src="icons/ig.jpg" style="border-radius:100%; height: 40px; width: 40px"></a>
+        <a href="https://www.pinterest.com.au/join/" target="_blank"><img src="icons/pt.jpg" style="border-radius:100%; height: 40px; width: 40px"></a>
+        <a href="https://twitter.com/signup?lang=en" target="_blank"><img src="icons/tw.jpg" style="border-radius:100%; height: 40px; width: 40px"></a>
+        <a href="https://linkedin.com/start/join" target="_blank"><img src="icons/li.jpg" style="border-radius:100%; height: 40px; width: 40px"></a>
+      </div>  
+      </div>
+      <div class="col-sm-4" style="font-size: 18px">
+      <p><strong>Sign up for our news letter</strong></p>
+      <div><a href="capstoneplaces.html" class="btn btn-primary" role="button">Sign up</a></div>
+      <p style="font-size: 14px"><strong>Sign up for our news letter to receive updates about this blog. This blog is an activity in our bootcamp.</strong></p>
+
+      </div>
+    </div>
+  </div>
+</div>
+
+<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
+<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script type="text/javascript" src="../bootstrap/js/bootstrap.min.js"></script>
+
+</body>
+</html>
