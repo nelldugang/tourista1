@@ -4,6 +4,14 @@
 	/*border: 1px solid orange;*/
 }
 
+nav {
+    font-size: 19px;
+}
+
+.navbar-brand {
+    font-size: 25px;
+}
+
 
 #element { 
   margin:0; padding:0;
